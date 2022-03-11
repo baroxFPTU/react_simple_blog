@@ -24,3 +24,5 @@ yarn-error.log*
 
 NOTE.md
 package-lock.json
+
+.env
