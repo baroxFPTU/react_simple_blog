@@ -1,0 +1,37 @@
+.thumb {
+  background-color: #5c93d1;
+  height: 230px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  transition: all 0.25s ease-in-out;
+}
+
+.thumb span {
+  text-shadow: 1px 1px #435268, -1px -1px #d9b9b9;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #cee5ff;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.thumb:hover span {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.postCard {
+  position: relative;
+}
+
+.cardBody {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff
+}
